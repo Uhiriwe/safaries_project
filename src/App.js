@@ -1,12 +1,12 @@
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./component/layout";
-import Home from "./component/home";
-import Tour_packages from "./component/tour_packages";
-import Destination from "./component/destinations";
-import Contact from "./component/contact";
 import About from "./component/about";
+import Contact from "./component/contact";
+import Destination from "./component/destinations";
+import Home from "./component/home";
+import Layout from "./component/layout";
+import Tour_packages from "./component/tour_packages";
 
 function App() {
   return (

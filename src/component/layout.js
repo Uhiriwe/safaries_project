@@ -1,9 +1,8 @@
-import React from 'react';
-import images from '../assets/images.jpeg';
-import { Outlet, Link } from "react-router-dom";
-import { FaEnvelope } from 'react-icons/fa';
-import { FaTwitter, FaInstagram, FaLinkedin, FaTripadvisor } from 'react-icons/fa';
 import CallIcon from '@mui/icons-material/Call';
+import React from 'react';
+import { FaEnvelope, FaInstagram, FaLinkedin, FaTripadvisor, FaTwitter } from 'react-icons/fa';
+import { Link, Outlet } from "react-router-dom";
+import kgl from '../assets/kgl.png';
 
 const Layout = () => {
     return (
@@ -34,7 +33,7 @@ const Layout = () => {
             </div>
             <nav className='nav_bar'>
                 <ul>
-                    <img className='nav_image' src={images} alt=''/>
+                    <img className='nav_image' src={kgl} alt=''/>
                     <li>
                         <Link to="/">Home</Link>
                     </li>

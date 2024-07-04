@@ -1,5 +1,4 @@
 import pixel from '../assets/pixel.jpg';
-import pixels from '../assets/pixels.jpg';
 const Home = () => {
     return <div>
         <div className='slide'>
